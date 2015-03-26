@@ -1,0 +1,22 @@
+java的array宣告是在type上面改(不止這種)(且需要new)
+	例:
+		int[] array;
+		int array[];
+		
+	new 空間
+		array = new int[5];
+	宣告同時new空間
+		int[] array = new int[5];  //可以把int[]想成像是C++的pointer 那樣用來動態宣告array用的	
+
+	給值(可同array方式給)
+	或者直接初始化
+		int[] array = {1,2,3,4};
+		int[] array = new int[]{1,2,3,4};//切記，int後面的中括號內絕對不能有數字
+
+	二維的宣告和給空間如同一維的一樣
+	
+C/C++則是在宣告的變數名稱後改
+	例:
+		int array[5] = {....};
+
+

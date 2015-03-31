@@ -1,0 +1,13 @@
+public class SpliDemo
+{
+	public static void main( String[] args )
+	{
+		String name = "John, Ted, JoJo ";
+		String text = "java,programming,is,funny";
+		String[] token = text.split( ",");
+		for( int i = 0 ; i < token.length ; i++ )
+			System.out.println(token[i]);
+	}
+}
+
+		
